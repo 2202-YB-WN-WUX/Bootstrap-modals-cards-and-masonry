@@ -1,0 +1,15 @@
+.custom-section {
+  background-color: #f7f7f7;
+  border-radius:20px;
+  margin-bottom: 10px;
+  /* padding:50px; */
+  /* use bootstrap classes for padding */
+}
+
+.card {
+  margin-bottom:10px;
+}
+
+#masonry img{
+   object-fit: cover;
+}

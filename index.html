@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap modals, cards, & masonry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+      <!-- <img class="d-block mx-auto mb-4" src="" alt="" width="72" height="57"> -->
+      <h1 class="display-5 fw-bold">Bootstrap Tutorial</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="#first-section" class="btn btn-primary btn-lg px-4 gap-3" role="button">Go to Modals</a>
+          <a href="#second-section" class="btn btn-outline-secondary btn-lg px-4 gap-3" role="button">Go to Cards</a>
+        </div>
+      </div>
+    </div>
+    <div id="first-section" class="container custom-section p-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4">Modals</h2>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="second-section" class="container custom-section p-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4">Cards</h2>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="https://picsum.photos/seed/picsum2/500" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="https://picsum.photos/seed/picsum3/500" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="https://picsum.photos/seed/picsum4/500" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="https://picsum.photos/seed/picsum5/500" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="third-section" class="container custom-section p-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4">Masonry Images</h2>
+        </div>
+      </div>
+      <div id="masonry" class="row" data-masonry='{"percentPosition": true }'>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum1132315/1200" width="100%" height="500" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum11235/1200" width="100%" height="200" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum12315/1200" width="100%" height="100" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum152/1200" width="100%" height="700" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum115/1200" width="100%" height="500" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum135/1200" width="100%" height="200" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum1335/1200" width="100%" height="100" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://picsum.photos/seed/picsum1115/1200" width="100%" height="700" class="card-img-top" alt="...">
+      </div>
+    </div>
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  </body>
+</html>
